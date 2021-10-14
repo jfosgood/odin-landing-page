@@ -35,15 +35,44 @@ nav h4{
     background-color: #1F2937;
 }
 
+
+
+
 .container {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .container btn{
     border-radius: 1px;
     background-color: #3882F6;
 }
+
+.hero-text .hero-image{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text{
+    padding: 80px;
+    color: #F9FAF8;
+}
+.hero-text h2{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.hero-text.button button{
+    background-color: #3882F6;
+    border-radius: 1px;
+}
+
+.hero-image{
+    flex-grow: 2;
+}
+
+
 
 .info {
     background-color: white;
@@ -52,15 +81,26 @@ nav h4{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    text-align: center;
+    padding: 10px;
 }
 .pumpkin-patch{
     display: flex;
     gap: 16px;
     justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-.pumpkin-patch img{
+.info-item{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.info-item img{
     border-radius: 5px;
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .quote{
